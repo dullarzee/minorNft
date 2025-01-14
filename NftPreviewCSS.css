@@ -1,0 +1,102 @@
+* {
+    box-sizing:border-box;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+#avatar{
+    position:absolute;
+    top:88%;
+    width:2.5rem;
+    border:1px solid white;
+    border-radius: 50%;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+#divMainImage:hover{
+    background-image: url('images/icon-view.svg');
+    background-position-y: 150%;
+}
+#ethIcon{
+    margin-right:3%;
+}
+#highlight{
+    color:white;
+}
+#highlight:hover{
+    color:hsl(178, 100%, 50%);
+    cursor:pointer
+}
+h3:hover{
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+html{
+    font-family:outfit;
+    color:white;
+    font-size:16px;
+}
+#image2{
+    margin-right:3%;
+}
+main{
+    display:grid;
+    place-items:center;
+}
+#mainImage{
+    width:100%;
+    border-radius: 6px;
+    
+}
+#mainImage:hover{
+    background-color: hsl(178, 100%, 50%);
+    cursor:pointer;
+
+    background-image: url('images/icon-view.svg');
+
+}
+p{
+    font-size:0.9rem;
+    /*opacity:60%;*/
+    color:hsl(215, 51%, 70%);
+}
+section{
+    margin-top:7%;
+    height:83vh;
+    width:22vw;
+    background-color:  hsl(216, 50%, 16%);
+    padding:1%;
+    border-radius:10px;
+    position:relative;
+}
+#span1{
+    color:hsl(178, 100%, 50%);
+    font-size:0.9rem;
+    margin-right:35%;
+    
+    
+}
+#span2{
+    font-size:0.8rem;
+}
+#spanAvatar{
+    position:absolute;
+    top:90%;
+    left:20%;
+    font-size: 0.9rem;
+    color:hsl(215, 51%, 70%);
+}
+#underline{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-top: 3.5%;
+}
+
+@media only screen and (max-width:370px){
+    section{
+        width:95%;
+        padding:6%;
+        height:88vh;
+    }
+}
